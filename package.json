@@ -1,0 +1,12 @@
+{
+  "title": "detect JS error",
+  "name": "detectjserror",
+  "version": "0.0.1",
+  "description": "detecting JS error in current page",
+  "main": "index.js",
+  "author": "Netlys Media",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT"
+}

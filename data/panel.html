@@ -1,0 +1,72 @@
+<html>
+<head>
+<style type="text/css" media="all">
+	body {margin 1px;}
+	
+	#rounded-corner {
+		border-collapse: collapse;
+		font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+		font-size: 12px;
+		text-align: left;
+		width: 400px;
+	}
+	
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 401px;
+	} 	
+	#rounded-corner thead th.rounded-company {
+		background: #b9c9fe url("./left.png") no-repeat scroll left -1px;
+	}
+	
+	#rounded-corner thead th.rounded-q2 {
+		background: #b9c9fe url("./right.png") no-repeat scroll right -1px;
+	}
+	
+	#rounded-corner tfoot td.rounded-foot-right {
+		background: #e8edff url("./botright.png") no-repeat scroll right bottom;
+	}
+	
+	#rounded-corner tfoot td.rounded-foot-left {
+		background: #e8edff url("./botleft.png") no-repeat scroll left bottom;
+	}
+	#rounded-corner th {
+		background: #b9c9fe none repeat scroll 0 0;
+		color: #039;
+		font-size: 13px;
+		font-weight: normal;
+		padding: 8px;
+	}
+	
+	#rounded-corner td {
+		background: #e8edff none repeat scroll 0 0;
+		border-top: 1px solid #fff;
+		color: #669;
+		padding: 8px;
+	}
+	
+    </style>
+  </head>
+<body>
+<script src="panel-script.js"></script>
+<table id="rounded-corner" max-width="400px">
+<thead>
+<tr>
+<th class="rounded-company" scope="col">Script</th>
+<th class="rounded-q1" scope="col">Line</th>
+<th class="rounded-q2" scope="col">error</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td class="rounded-foot-left" colspan="2">&nbsp;</td>
+<td class="rounded-foot-right">&nbsp;</td>
+</tr>
+</tfoot>
+<tbody id="tableContent">
+
+</tbody>
+</table>
+  </body>
+</html>
